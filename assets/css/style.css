@@ -112,3 +112,31 @@ ul li:last-child {
     color: #fff;
 
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    /* Adjust form elements for smaller screens */
+    .form-container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .form-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .add-button {
+      width: 100%;
+    }
+  
+    /* Adjust text alignment and sizing */
+    h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .total-container {
+      text-align: center;
+    }
+  }
