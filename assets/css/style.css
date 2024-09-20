@@ -113,42 +113,19 @@ ul li:last-child {
 
 }
 
-/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-  /* Ajusta el tamaño de fuente para la legibilidad */
+  /* Ajusta el tamaño de fuente para una mejor legibilidad en pantallas pequeñas */
   body {
     font-size: 16px;
   }
 
-  /* Ajusta el ancho de los campos de entrada */
-  input[type="text"],
-  input[type="number"] {
+  /* Hace que la imagen ocupe el 100% del ancho de su contenedor */
+  .img-container img {
     width: 100%;
-    box-sizing: border-box;
   }
 
-  /* Ajusta el tamaño del botón */
-  button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  /* Ajusta el espaciado entre elementos */
-  .container {
-    padding: 20px;
-  }
-
-  /* Ajusta el diseño de la tabla */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
-  th,
-  td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
+  /* Hace que los elementos de la lista se muestren uno debajo del otro */
+  ul {
+    flex-direction: column;
   }
 }
