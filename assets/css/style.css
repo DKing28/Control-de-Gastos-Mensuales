@@ -113,30 +113,42 @@ ul li:last-child {
 
 }
 
-/* Mobile styles */
+/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-    /* Adjust form elements for smaller screens */
-    .form-container {
-      width: 100%;
-      padding: 20px;
-    }
-  
-    .form-input {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  
-    .add-button {
-      width: 100%;
-    }
-  
-    /* Adjust text alignment and sizing */
-    h1 {
-      font-size: 24px;
-      text-align: center;
-    }
-  
-    .total-container {
-      text-align: center;
-    }
+  /* Ajusta el tamaño de fuente para la legibilidad */
+  body {
+    font-size: 16px;
   }
+
+  /* Ajusta el ancho de los campos de entrada */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Ajusta el tamaño del botón */
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  /* Ajusta el espaciado entre elementos */
+  .container {
+    padding: 20px;
+  }
+
+  /* Ajusta el diseño de la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+}
